@@ -13,3 +13,7 @@ __pycache__/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Ignore all data unless processed
+data/*
+!data/processed/*.json
